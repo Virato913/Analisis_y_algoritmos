@@ -30,6 +30,9 @@
     <ClCompile Include="src\Insert.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Heap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Prerequisites.h">
@@ -45,6 +48,9 @@
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="include\Insert.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Heap.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>

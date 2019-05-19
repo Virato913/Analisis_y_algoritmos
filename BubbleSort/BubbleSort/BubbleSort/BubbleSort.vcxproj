@@ -120,6 +120,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Bubble.cpp" />
+    <ClCompile Include="src\Heap.cpp" />
     <ClCompile Include="src\Insert.cpp" />
     <ClCompile Include="src\Source.cpp" />
     <ClCompile Include="src\Timer.cpp" />
@@ -127,6 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Bubble.h" />
+    <ClInclude Include="include\Heap.h" />
     <ClInclude Include="include\Insert.h" />
     <ClInclude Include="include\Prerequisites.h" />
     <ClInclude Include="include\Timer.h" />

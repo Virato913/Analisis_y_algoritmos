@@ -50,7 +50,7 @@ class Timer
   void
   setCurrentTime();
 
-  static constexpr long long
+  static long long
   getDifference(Timer start, Timer end);
 
   /*********************************************************************************************

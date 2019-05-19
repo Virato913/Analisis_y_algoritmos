@@ -8,13 +8,14 @@
 ******************************************************************************/
 
 #include "Vector.h"
+#include <iostream>
 
 Vector::Vector() {
 
 }
 
 Vector::~Vector() {
-
+  clear();
 }
 
 void
@@ -34,11 +35,19 @@ Vector::fill(int num, Type::E type) {
       break;
     case Type::kDescending:
       for(int i = 0; i < num; ++i) {
-        m_vector.push_back(num - i);
+        m_vector.push_back(num - i - 1);
       }
       break;
     case Type::kRandom:
       break;
     }
   }
+}
+
+void
+Vector::print() {
+  for(auto& it : m_vector) {
+    std::cout << it;
+  }
+  std::cout << std::endl;
 }

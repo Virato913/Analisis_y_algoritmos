@@ -23,5 +23,5 @@ namespace Bubble {
   *  @param 
   */
   void
-    sort(Vector v);
+    sort(Vector& v);
 }

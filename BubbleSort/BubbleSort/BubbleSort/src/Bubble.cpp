@@ -10,10 +10,10 @@
 #include "Bubble.h"
 
 void
-Bubble::sort(Vector v) {
+Bubble::sort(Vector& v) {
   int temp = 0;
-  for(int i = 0; i < v.m_vector.size() - 1; ++i) {
-    for(int j = 0; j < v.m_vector.size() - i - 1; ++j) {
+  for(size_t i = 0; i < v.m_vector.size() - 1; ++i) {
+    for(size_t j = 0; j < v.m_vector.size() - i - 1; ++j) {
       if(v.m_vector[j] > v.m_vector[j + 1]) {
         temp = v.m_vector[j];
         v.m_vector[j] = v.m_vector[j + 1];

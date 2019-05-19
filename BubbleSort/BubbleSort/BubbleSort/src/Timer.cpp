@@ -22,7 +22,7 @@ Timer::setCurrentTime() {
   m_time = high_resolution_clock::now();
 }
 
-constexpr long long
+long long
 Timer::getDifference(Timer start, Timer end) {
   return std::chrono::duration_cast<nanoseconds>(end.m_time - start.m_time).count();
 }
