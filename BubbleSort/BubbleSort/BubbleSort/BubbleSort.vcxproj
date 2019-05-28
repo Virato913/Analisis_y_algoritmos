@@ -119,18 +119,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Binary.cpp" />
     <ClCompile Include="src\Bubble.cpp" />
+    <ClCompile Include="src\Hash.cpp" />
     <ClCompile Include="src\Heap.cpp" />
     <ClCompile Include="src\Insert.cpp" />
+    <ClCompile Include="src\Linear.cpp" />
+    <ClCompile Include="src\Merge.cpp" />
+    <ClCompile Include="src\Quick.cpp" />
     <ClCompile Include="src\Source.cpp" />
     <ClCompile Include="src\Timer.cpp" />
     <ClCompile Include="src\Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Binary.h" />
     <ClInclude Include="include\Bubble.h" />
+    <ClInclude Include="include\Hash.h" />
     <ClInclude Include="include\Heap.h" />
     <ClInclude Include="include\Insert.h" />
+    <ClInclude Include="include\Linear.h" />
+    <ClInclude Include="include\Merge.h" />
     <ClInclude Include="include\Prerequisites.h" />
+    <ClInclude Include="include\Quick.h" />
     <ClInclude Include="include\Timer.h" />
     <ClInclude Include="include\Vector.h" />
   </ItemGroup>

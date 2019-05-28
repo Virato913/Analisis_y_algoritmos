@@ -9,6 +9,7 @@
 
 #include "Vector.h"
 #include <iostream>
+#include <random>
 
 Vector::Vector() {
 
@@ -25,7 +26,7 @@ Vector::clear() {
 
 void
 Vector::fill(int num, Type::E type) {
-  if(type != Type::kRandom) {
+  if(type != Type::kCount) {
     m_vector.reserve(num);
     switch(type) {
     case Type::kAscending:
@@ -39,6 +40,11 @@ Vector::fill(int num, Type::E type) {
       }
       break;
     case Type::kRandom:
+      std::mt19937 rng{ std::random_device{}() };
+      for(int i = 0; i < num; ++i) {
+        std::uniform_int_distribution<> n(0, num);
+        m_vector.push_back(n(rng));
+      }
       break;
     }
   }
