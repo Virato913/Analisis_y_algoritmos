@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{12404950-9758-4C7F-B18D-640F25379161}</ProjectGuid>
-    <RootNamespace>BubbleSort</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{D39721E8-9F4B-4352-9FEE-C03D8107AE07}</ProjectGuid>
+    <RootNamespace>RedBlackTrees</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,6 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>./include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -85,7 +84,6 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>./include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -96,7 +94,6 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>./include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -111,7 +108,6 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>./include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -119,40 +115,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Binary.cpp" />
-    <ClCompile Include="src\Bubble.cpp" />
-    <ClCompile Include="src\Bucket.cpp" />
-    <ClCompile Include="src\Counting.cpp" />
-    <ClCompile Include="src\Hash.cpp" />
-    <ClCompile Include="src\Heap.cpp" />
-    <ClCompile Include="src\Insert.cpp" />
-    <ClCompile Include="src\Linear.cpp" />
-    <ClCompile Include="src\Merge.cpp" />
-    <ClCompile Include="src\Quick.cpp" />
-    <ClCompile Include="src\Radix.cpp" />
-    <ClCompile Include="src\Radixf.cpp" />
-    <ClCompile Include="src\Source.cpp" />
-    <ClCompile Include="src\Timer.cpp" />
-    <ClCompile Include="src\Vector.cpp" />
-    <ClCompile Include="src\Vectorf.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="include\Binary.h" />
-    <ClInclude Include="include\Bubble.h" />
-    <ClInclude Include="include\Bucket.h" />
-    <ClInclude Include="include\Counting.h" />
-    <ClInclude Include="include\Hash.h" />
-    <ClInclude Include="include\Heap.h" />
-    <ClInclude Include="include\Insert.h" />
-    <ClInclude Include="include\Linear.h" />
-    <ClInclude Include="include\Merge.h" />
-    <ClInclude Include="include\Prerequisites.h" />
-    <ClInclude Include="include\Quick.h" />
-    <ClInclude Include="include\Radix.h" />
-    <ClInclude Include="include\Radixf.h" />
-    <ClInclude Include="include\Timer.h" />
-    <ClInclude Include="include\Vector.h" />
-    <ClInclude Include="include\Vectorf.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

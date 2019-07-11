@@ -57,6 +57,12 @@
     <ClCompile Include="src\Bucket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Vectorf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Radixf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Prerequisites.h">
@@ -99,6 +105,12 @@
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="include\Bucket.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vectorf.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Radixf.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
